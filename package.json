@@ -3,7 +3,6 @@
   "version": "0.0.1",
   "description": "Library Untuk Inbox Backend User",
   "author": "Mudiarta Tauda",
-  "private": true,
   "license": "UNLICENSED",
   "files": ["/dist/**/*"],
   "main": "dist/index.js",
