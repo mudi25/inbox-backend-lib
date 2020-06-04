@@ -1,9 +1,9 @@
 ## Description
 
-Library Untuk in-Box user backend library.
+Library Untuk in-Box backend.
 
 ## Installation
 
 ```bash
-$ yarn install inbox-user-backend-lib
+$ yarn install inbox-backend-lib
 ```

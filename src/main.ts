@@ -4,6 +4,9 @@ import {
   SetMetadata,
 } from '@nestjs/common';
 
+export { QueryPaging } from './queryPaging';
+export { ValidateInput } from './validateInput';
+
 export enum AkunRoles {
   SUPER = 'super',
   GUDANG = 'gudang',
@@ -22,11 +25,17 @@ export interface DecodedAccessToken {
   id: string;
   roles: AkunRoles;
   exp: number;
-  last: number;
 }
 
 export interface DecodedRefreshToken {
   id: string;
   roles: AkunRoles;
-  last: number;
+}
+export interface PaginateOutput<T> {
+  items: T[];
+  totalItems: number;
+  itemCount: number;
+  itemsPerPage: number;
+  totalPages: number;
+  currentPage: number;
 }
