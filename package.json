@@ -3,11 +3,11 @@
   "version": "0.0.3",
   "description": "Library Untuk Inbox Backend",
   "author": "Mudiarta Tauda",
-  "license": "UNLICENSED",
+  "license": "MIT",
   "files": [
     "/dist/**/*.d.ts"
   ],
-  "main": "dist/main.d.ts",
+  "main": "dist/main.js",
   "types": "dist/main.d.ts",
   "scripts": {
     "prepare": "yarn build",
